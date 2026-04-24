@@ -2,8 +2,8 @@ package engine;
 
 public class HybridEngine implements Engine{
 
-    private ElectricEngine electricEngine;
-    private GasEngine gasEngine;
+    private Engine electricEngine;
+    private Engine gasEngine;
 
     private ActiveEngine activeEngineType;
     private int speed;
