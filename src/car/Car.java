@@ -17,7 +17,7 @@ public class Car {
     }
 
     private boolean isValidSpeed() {
-        return this.speed >= 0 && this.speed < MAX_SPEED;
+        return this.speed >= 0 && this.speed <= MAX_SPEED;
     }
 
     public void start() {
