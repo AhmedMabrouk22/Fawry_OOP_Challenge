@@ -7,9 +7,9 @@ A simple Java implementation of a **car factory** that assembles cars with inter
   `start()`, `stop()`, `accelerate()` (+20 km/h, max 200), `brake()` (-20 km/h, min 0).
 
 - **Three engine types**:
-  - `GasolineEngine` – internal combustion engine.
-  - `ElectronicEngine` – fully electric engine.
-  - `MixedHybridEngine` – contains both gas and electric engines.
+  - `GasEngine`
+  - `ElectricEngine`
+  - `HybridEngine`
 
 
 - **Hybrid engine optimisation**:  
