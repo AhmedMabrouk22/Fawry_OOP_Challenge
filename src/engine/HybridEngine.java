@@ -58,6 +58,7 @@ public class HybridEngine implements Engine{
     public void start() {
         System.out.println("Hybrid Engine Start");
         speed = 0;
+        activeEngineType = ActiveEngine.ELECTRIC;
     }
 
     @Override
